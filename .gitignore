@@ -1,0 +1,10 @@
+/.idea/encodings.xml
+/.idea/markdown.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/ui-components.iml
+/.idea/vcs.xml
+/.rollup.cache/
+/coverage/
+/dist/
+/node_modules/
