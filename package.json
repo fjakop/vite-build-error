@@ -1,7 +1,7 @@
 {
   "name": "@skp-bankorga/ui-components",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "./dist/ui-components.umd.cjs",
   "module": "./dist/ui-components.js",
   "types": "./dist/index.d.ts",
