@@ -2,7 +2,6 @@ default:
   image: node:latest
   before_script:
     - 'cp ${NPMRC2} ~/.npmrc'
-    - 'echo "@${CI_PROJECT_ROOT_NAMESPACE}:registry=https://skp.repo.fisp.dev/repository/npm-private/"'
 
   cache:
     key: "${CI_COMMIT_REF_SLUG}"
@@ -63,8 +62,4 @@ sonarqube-check:
       paths:
         - .sonar/cache
   script:
-    - 'pwd'
-    - 'ls -la '
-    - 'ls -la /'
-    - 'ls -la coverage'
     - 'sonar-scanner -Dsonar.host.url=${SONAR_HOST_URL} -Dsonar.login=${SONAR_DEVELOPER_TOKEN} -Dsonar.qualitygate.wait=true'
