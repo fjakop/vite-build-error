@@ -70,7 +70,7 @@ sonarqube-check:
   script:
     - 'sonar-scanner -Dsonar.host.url=${SONAR_HOST_URL} -Dsonar.login=${SONAR_DEVELOPER_TOKEN} -Dsonar.qualitygate.wait=true'
 
-build:nexusiq:
+nexusiq:
   stage: test
   needs:
     - test
