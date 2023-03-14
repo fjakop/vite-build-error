@@ -14,7 +14,6 @@ default:
       - ".npm/"
       - "coverage/"
       - "dist/"
-      - "package-lock.json"
 
 workflow:
   rules:
@@ -27,25 +26,19 @@ workflow:
     - if: $CI_COMMIT_BRANCH =~ /^story-/
     - if: $CI_COMMIT_BRANCH =~ /^task-/
 
-stages:
-  - test
-
 build:
-  stage: test
   script:
     - "npm ci --cache .npm --prefer-offline"
     - "npm run build"
 
 test:
-  stage: test
   needs:
-    - test
+    - build
   script:
     - "npm ci --cache .npm --prefer-offline"
     - "npm run coverage"
 
 publish:
-  stage: test
   needs:
     - sonarqube-check
     - nexusiq
@@ -54,7 +47,6 @@ publish:
     - "npx semantic-release"
 
 sonarqube-check:
-  stage: test
   needs:
     - test
   image:
@@ -74,7 +66,6 @@ sonarqube-check:
     - 'sonar-scanner -Dsonar.host.url=${SONAR_HOST_URL} -Dsonar.login=${SONAR_DEVELOPER_TOKEN} -Dsonar.qualitygate.wait=true'
 
 nexusiq:
-  stage: test
   needs:
     - test
   variables:
