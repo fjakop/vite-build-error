@@ -1,6 +1,6 @@
 include:
   - project: 'skp-bank-orga/de.skp.bankorga.infrastruktur'
-    ref: master
+    ref: 40548f56
     file: 'gitlab-ci/nexusiq.gitlab-ci.yml'
 
 default:
