@@ -1,6 +1,6 @@
 include:
   - project: 'skp-bank-orga/de.skp.bankorga.infrastruktur'
-    ref: eb7072ff
+    ref: 4b84d4fc
     file: 'gitlab-ci/build-test.yml'
 
 default:
