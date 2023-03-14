@@ -1,7 +1,7 @@
 include:
   - project: 'skp-bank-orga/de.skp.bankorga.infrastruktur'
-    ref: 4b84d4fc
-    file: 'gitlab-ci/build-test.yml'
+    ref: master
+    file: 'gitlab-ci/nexusiq.gitlab-ci.yml'
 
 default:
   image: node:latest
