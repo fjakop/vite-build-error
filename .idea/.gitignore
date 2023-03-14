@@ -6,5 +6,11 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-/sonarlint/issuestore/
-/sonarlint/securityhotspotstore/
+/sonarlint/
+encodings.xml
+markdown.xml
+misc.xml
+modules.xml
+sonarlint.xml
+sonarlint-state.xml
+vcs.xml
