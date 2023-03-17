@@ -15,7 +15,7 @@ interface AuthorizedProps {
    */
   requiredRoles: Array<string>;
   /**
-   * Kindelemente, die angezeigt werden, falls eine Authentifizierung vorliegt.
+   * Kindelemente, die angezeigt werden, falls eine Autorisierung vorliegt.
    */
   children?: ReactNode[] | ReactNode;
 }

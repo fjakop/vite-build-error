@@ -2,7 +2,7 @@ import {render, screen} from '@testing-library/react';
 import {keycloakAuthClient, KeycloakAuthorized} from '.';
 
 const component = (
-  <KeycloakAuthorized keycloak={keycloakAuthClient} requiredRoles={['foo']}>
+  <KeycloakAuthorized keycloak={keycloakAuthClient} applicationId={'personal'} requiredRoles={['foo']}>
     <div data-testid='child'>child</div>
   </KeycloakAuthorized>
 );
