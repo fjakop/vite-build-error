@@ -1,3 +1,10 @@
+## [1.0.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.0.0...v1.0.1) (2023-04-12)
+
+
+### Bug Fixes
+
+* BO-1569 BO-1573 KeycloakAuthorized fixed ([c7922e1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/c7922e19b817a3be605d9a5c130fcac3edfd6cfb))
+
 ## [1.0.1-story-BO-1569-ITBO.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.0.0...v1.0.1-story-BO-1569-ITBO.1) (2023-03-17)
 
 
