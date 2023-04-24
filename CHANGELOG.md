@@ -1,3 +1,10 @@
+# [1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.1...v1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.2) (2023-04-24)
+
+
+### Features
+
+* BO-1857 FormSection exportieren ([afa69e2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/afa69e2c210fe343e523b4359179d7c9bf7797b2))
+
 # [1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.0.1...v1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.1) (2023-04-24)
 
 
