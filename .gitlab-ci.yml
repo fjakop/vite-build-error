@@ -41,7 +41,8 @@ test:
 publish:
   needs:
     - sonarqube-check
-    - nexusiq
+    # TODO fix for: 'publish' job needs 'nexusiq' job, but 'nexusiq' is not in any previous stage
+    # - nexusiq
   script:
     - "npm ci --cache .npm --prefer-offline"
     - "npx semantic-release"
