@@ -11,7 +11,9 @@ import PendingHeader from './PendingHeader';
 import PendingSpinner from './PendingSpinner';
 import SuccessPanel from './SuccessPanel';
 import UserTaskHeader from './UserTaskHeader';
+import UserTaskNavigationRow from './UserTaskNavigationRow';
 import WarningPanel from './WarningPanel';
+import WorkloadPanel from './WorkloadPanel';
 
 export {
   ButtonCancel,
@@ -27,5 +29,7 @@ export {
   PendingSpinner,
   SuccessPanel,
   UserTaskHeader,
+  UserTaskNavigationRow,
   WarningPanel,
+  WorkloadPanel,
 };
