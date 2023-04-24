@@ -1,3 +1,10 @@
+# [1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.0.1...v1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.1) (2023-04-24)
+
+
+### Features
+
+* BO-1843 neue Komponente FormSection ([d76f946](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/d76f946b62d7577336eb311bb171615e04bebf52))
+
 ## [1.0.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.0.0...v1.0.1) (2023-04-12)
 
 
