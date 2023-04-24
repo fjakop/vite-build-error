@@ -2,7 +2,8 @@ import React from 'react';
 import {Col, Row, RowProps} from 'react-bootstrap';
 
 import styled from 'styled-components';
-import {ButtonCancel, ButtonSubmit} from './index';
+import ButtonCancel from './ButtonCancel';
+import ButtonSubmit from './ButtonSubmit';
 
 const UserTaskNavigationRow = ({
   pending,
@@ -11,7 +12,7 @@ const UserTaskNavigationRow = ({
   ...rowProps
 }: RowProps & {pending: boolean; onCancel: () => void; readonly?: boolean}) => {
   return (
-    <Row {...rowProps}>
+    <Row {...rowProps} data-testid='user-task-navigation-row'>
       <Col xl={2} lg={3} md={4} sm={6} xs={12}>
         <StyledCancelButton className='w-100' onClick={onCancel} disabled={pending} data-testid='cancel-button-user-task-navigation-row'>
           <span className='text-nowrap'>{readonly ? 'Zurück zur Aufgabenliste' : 'Bearbeitung abbrechen'}</span>
