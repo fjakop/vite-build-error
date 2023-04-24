@@ -1,7 +1,7 @@
 {
   "name": "@skp-bankorga/ui-components",
   "type": "module",
-  "version": "1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.2",
+  "version": "1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.3",
   "main": "./dist/ui-components.umd.cjs",
   "module": "./dist/ui-components.js",
   "types": "./dist/index.d.ts",
