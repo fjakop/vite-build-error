@@ -1,7 +1,10 @@
 import React, {ReactNode} from 'react';
 import {Card} from 'react-bootstrap';
 import styled from 'styled-components';
-import {MainHeader, ErrorPanel, ButtonLink, UserTaskNavigationRow} from './index';
+import MainHeader from './MainHeader';
+import ErrorPanel from './ErrorPanel';
+import ButtonLink from './ButtonLink';
+import UserTaskNavigationRow from './UserTaskNavigationRow';
 
 const WorkloadPanel = ({
   title,
