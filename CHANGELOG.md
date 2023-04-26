@@ -1,3 +1,11 @@
+# [1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.3](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.2...v1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.3) (2023-04-24)
+
+
+### Features
+
+* BO-1857 neue Komponenten ([70d5a47](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/70d5a473d19fd88ffa73074686e1b39027f64f7d))
+* BO-1857 UnitTests für WorkloadPanel ([5037028](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/5037028d67c7748f81b509d63eafc9370a83a775))
+
 # [1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.1...v1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.2) (2023-04-24)
 
 
