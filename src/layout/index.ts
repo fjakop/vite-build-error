@@ -3,6 +3,7 @@ import ButtonLink from './ButtonLink';
 import ButtonSubmit from './ButtonSubmit';
 import ContentHeader from './ContentHeader';
 import ErrorPanel from './ErrorPanel';
+import FormField from './FormField';
 import FormSection from './FormSection';
 import IconWithText from './IconWithText';
 import InfoIconMitTooltip from './InfoIconMitTooltip';
@@ -21,6 +22,7 @@ export {
   ButtonSubmit,
   ContentHeader,
   ErrorPanel,
+  FormField,
   FormSection,
   IconWithText,
   InfoIconMitTooltip,
