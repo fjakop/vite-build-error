@@ -41,8 +41,10 @@ test:
 publish:
   needs:
     - sonarqube-check
-    # TODO fix for: 'publish' job needs 'nexusiq' job, but 'nexusiq' is not in any previous stage
-    # - nexusiq
+    - job: nexusiq
+      # Der Job  'nexusiq' wird nicht auf allen Branches ausgeführt.
+      # Wenn er aber ausgeführt wird, muss darauf gewartet werden
+      optional: true
   script:
     - "npm ci --cache .npm --prefer-offline"
     - "npx semantic-release"
