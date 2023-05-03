@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "dependencies": {
     "@react-keycloak/web": "^3.4.0",
-    "react-bootstrap-typeahead": "6.0.0",
+    "react-bootstrap-typeahead": "6.1.2",
     "react-icons": "4.7.1",
     "styled-components": "5.3.7",
     "typescript": "4.9.4"
