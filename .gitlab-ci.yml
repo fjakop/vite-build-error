@@ -25,6 +25,7 @@ workflow:
     - if: $CI_COMMIT_BRANCH == 'beta'
     - if: $CI_COMMIT_BRANCH =~ /^story-/
     - if: $CI_COMMIT_BRANCH =~ /^task-/
+    - if: $CI_COMMIT_BRANCH =~ /^renovate\//
 
 build:
   script:
@@ -45,6 +46,8 @@ publish:
       # Der Job  'nexusiq' wird nicht auf allen Branches ausgeführt.
       # Wenn er aber ausgeführt wird, muss darauf gewartet werden
       optional: true
+  rules:
+    - if: $CI_COMMIT_BRANCH !~ /^renovate\//
   script:
     - "npm ci --cache .npm --prefer-offline"
     - "npx semantic-release"
