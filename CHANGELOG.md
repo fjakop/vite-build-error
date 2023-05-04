@@ -1,3 +1,11 @@
+## [1.1.2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.1.1...v1.1.2) (2023-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-icons to v4.8.0 ([188816d](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/188816da8f1f41398111bbd162d77df98af20b33))
+* **deps:** update dependency typescript to v4.9.5 ([4c59159](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/4c591594bfacf06a7668f69a174c2db3df1ba279))
+
 ## [1.1.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.1.0...v1.1.1) (2023-05-04)
 
 
