@@ -1,3 +1,11 @@
+## [1.1.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.1.0...v1.1.1) (2023-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-bootstrap-typeahead to v6.1.2 ([e1d4eea](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/e1d4eea0bcc88fcc1ffeac224c0c505088cb2a1a))
+* **deps:** update dependency styled-components to v5.3.10 ([4862b46](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/4862b46919ccffe297935fbd331e903b03e9bd38))
+
 # [1.1.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.0.1...v1.1.0) (2023-05-04)
 
 
