@@ -1,3 +1,16 @@
+# [1.1.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.0.1...v1.1.0) (2023-05-04)
+
+
+### Features
+
+* BO-1843 neue Komponente FormSection ([d76f946](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/d76f946b62d7577336eb311bb171615e04bebf52))
+* BO-1857 FormField exportieren ([4547467](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/454746746ce4cad4656acb8adfb6ad60d5df4512))
+* BO-1857 FormField unit test ([fd37aef](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/fd37aef220280f05f8b9aa61e05524ef9c29472c))
+* BO-1857 FormSection exportieren ([afa69e2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/afa69e2c210fe343e523b4359179d7c9bf7797b2))
+* BO-1857 neue Komponente FormField ([2886d40](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/2886d4068ca8068f6c2815d38a0c28826b02a69b))
+* BO-1857 neue Komponenten ([70d5a47](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/70d5a473d19fd88ffa73074686e1b39027f64f7d))
+* BO-1857 UnitTests für WorkloadPanel ([5037028](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/5037028d67c7748f81b509d63eafc9370a83a775))
+
 # [1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.5](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.4...v1.1.0-story-BO-1843-BO-1857-UserTask-Anwendungsberechtigungen-administrieren.5) (2023-04-26)
 
 
