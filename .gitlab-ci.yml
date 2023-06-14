@@ -33,6 +33,10 @@ build:
     - "npm run build"
 
 test:
+  artifacts:
+    reports:
+      junit:
+        - 'junit.xml'
   needs:
     - build
   script:
