@@ -42,7 +42,7 @@
   "scripts": {
     "build": "rimraf dist && vite build",
     "test": "vitest",
-    "coverage": "rimraf coverage && vitest run --coverage",
+    "coverage": "rimraf coverage && vitest run --coverage --reporter=junit --outputFile=junit.xml",
     "semantic-release": "semantic-release"
   },
   "publishConfig": {
