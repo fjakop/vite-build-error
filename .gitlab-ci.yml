@@ -1,7 +1,8 @@
 include:
   - project: 'skp-bank-orga/de.skp.bankorga.infrastruktur'
-    ref: 40548f56
-    file: 'gitlab-ci/nexusiq.gitlab-ci.yml'
+    ref: '80775928'
+    file:
+      - 'gitlab-ci/nexusiq.gitlab-ci.yml'
 
 default:
   image: node:latest
@@ -75,7 +76,7 @@ sonarqube-check:
   script:
     - 'sonar-scanner -Dsonar.host.url=${SONAR_HOST_URL} -Dsonar.login=${SONAR_DEVELOPER_TOKEN} -Dsonar.qualitygate.wait=true'
 
-nexusiq:
+nexusiq:evaluate:
   needs:
     - test
   variables:
