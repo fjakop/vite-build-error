@@ -7,7 +7,7 @@ export interface PendingHeaderProps {
   headerContentEnd?: string | ReactElement;
 }
 
-export default ({headerContent, pending, headerContentEnd}: PendingHeaderProps) => {
+const PendingHeader = ({headerContent, pending, headerContentEnd}: PendingHeaderProps) => {
   return (
     <div className='d-flex justify-content-between align-items-end'>
       <div className='d-flex align-items-baseline'>
@@ -22,3 +22,4 @@ export default ({headerContent, pending, headerContentEnd}: PendingHeaderProps) 
     </div>
   );
 };
+export default PendingHeader;

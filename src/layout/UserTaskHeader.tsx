@@ -11,6 +11,7 @@ interface UserTasksHeaderProps {
 
 export type Props = StateProps & UserTasksHeaderProps;
 
-export default ({title, pending}: Props) => {
+const UserTaskHeader = ({title, pending}: Props) => {
   return <PendingHeader headerContent={<div className='d-flex flex-column'>{title}</div>} pending={pending} />;
 };
+export default UserTaskHeader;

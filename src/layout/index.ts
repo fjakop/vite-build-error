@@ -7,6 +7,7 @@ import FormField from './FormField';
 import FormSection from './FormSection';
 import IconWithText from './IconWithText';
 import InfoIconMitTooltip from './InfoIconMitTooltip';
+import InfoPanel from './InfoPanel';
 import MainHeader from './MainHeader';
 import PendingHeader from './PendingHeader';
 import PendingSpinner from './PendingSpinner';
@@ -26,6 +27,7 @@ export {
   FormSection,
   IconWithText,
   InfoIconMitTooltip,
+  InfoPanel,
   MainHeader,
   PendingHeader,
   PendingSpinner,

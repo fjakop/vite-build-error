@@ -1,7 +1,7 @@
 import React, {ReactElement} from 'react';
 import PendingHeader from './PendingHeader';
 
-export default ({
+const MainHeader = ({
   title,
   pending,
   subTitle,
@@ -24,3 +24,4 @@ export default ({
     />
   );
 };
+export default MainHeader;

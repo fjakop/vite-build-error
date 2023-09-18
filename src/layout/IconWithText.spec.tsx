@@ -1,5 +1,5 @@
 import React from 'react';
-import {render, screen} from '@testing-library/react';
+import {render, screen, within} from '@testing-library/react';
 import IconWithText from '../layout/IconWithText';
 import {describe, expect, it} from 'vitest';
 
@@ -8,15 +8,14 @@ describe('IconWithText', () => {
     render(<IconWithText text={'foo'} iconSrc={'bar'} />);
 
     const icon = screen.getByTestId('icon-with-text');
-
     expect(icon).toHaveClass('d-flex align-items-end');
 
-    const image = icon.firstChild;
+    const image = within(icon).getByRole('img');
     expect(image).toHaveClass('me-2 img-thumbnail');
     expect(image).toHaveAttribute('alt', 'icon');
     expect(image).toHaveAttribute('src', 'bar');
 
-    const text = icon.children.item(1);
+    const text = within(icon).getByRole('heading');
     expect(text).toHaveTextContent('foo');
   });
 });

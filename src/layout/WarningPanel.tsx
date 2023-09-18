@@ -1,7 +1,7 @@
 import React, {ReactNode} from 'react';
 import {FaExclamationCircle} from 'react-icons/fa';
 
-export default ({message, details}: {message: string; details?: string | ReactNode}) => {
+const WarningPanel = ({message, details}: {message: string; details?: string | ReactNode}) => {
   return (
     <div className='d-flex m-2'>
       <i>
@@ -14,3 +14,4 @@ export default ({message, details}: {message: string; details?: string | ReactNo
     </div>
   );
 };
+export default WarningPanel;

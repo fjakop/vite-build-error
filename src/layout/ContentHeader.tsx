@@ -11,6 +11,7 @@ interface ContentHeaderProps {
 
 export type Props = StateProps & ContentHeaderProps;
 
-export default ({pending, title}: Props) => {
+const ContentHeader = ({pending, title}: Props) => {
   return <PendingHeader headerContent={<div className='d-flex align-items-center'>{title}</div>} pending={pending} />;
 };
+export default ContentHeader;

@@ -2,7 +2,7 @@ import React from 'react';
 import {Button, ButtonProps} from 'react-bootstrap';
 import styled from 'styled-components';
 
-export default (props: ButtonProps) => {
+const ButtonLink = (props: ButtonProps) => {
   const myProps: ButtonProps = {...props, variant: 'link'};
   return <StyledSubmitButton {...myProps}>{props.children}</StyledSubmitButton>;
 };
@@ -20,3 +20,5 @@ const StyledSubmitButton = styled(Button)`
     color: var(--bs-btn-hover-color);
   }
 `;
+
+export default ButtonLink;

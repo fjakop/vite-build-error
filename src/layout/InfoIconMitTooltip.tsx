@@ -26,7 +26,7 @@ export interface Props {
   size?: string;
 }
 
-export default (props: Props) => {
+const InfoIconMitTooltip = (props: Props) => {
   return (
     <OverlayTrigger placement={props.placement || 'right'} overlay={<Tooltip className='tooltip-info'>{props.text}</Tooltip>}>
       <i className='text-muted' id={props.id || ''}>
@@ -41,3 +41,4 @@ const StyledFaInfoCircle = styled(FaInfoCircle)`
   margin-left: 3px;
   margin-bottom: 3px;
 `;
+export default InfoIconMitTooltip;
