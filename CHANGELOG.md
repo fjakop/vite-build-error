@@ -1,3 +1,10 @@
+# [1.2.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.1.2...v1.2.0) (2023-09-18)
+
+
+### Features
+
+* InfoPanel zeigt Infos mit Icon und optionaler Detailmessage an ([d585a7e](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/d585a7e4e5896d0f5e4b1b45a660a23ed1aea3d2))
+
 ## [1.1.2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.1.1...v1.1.2) (2023-05-04)
 
 
