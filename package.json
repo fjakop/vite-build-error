@@ -28,7 +28,7 @@
     "@testing-library/user-event": "14.4.3",
     "@types/jest": "29.5.1",
     "@types/node": "20.9.0",
-    "@types/styled-components": "5.1.26",
+    "@types/styled-components": "5.1.30",
     "@vitejs/plugin-react": "4.1.1",
     "@vitest/coverage-c8": "0.31.0",
     "@vitest/coverage-v8": "0.34.6",
