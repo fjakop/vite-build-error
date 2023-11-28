@@ -1,3 +1,10 @@
+# [1.3.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.2.0...v1.3.0) (2023-11-28)
+
+
+### Features
+
+* **ui:** MainHeader mit Back-Button ([50fb18b](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/50fb18baa042a82bc59cd0ff4b51d46ae6944e2f))
+
 # [1.3.0-story-BO-2564-prozessprotokoll.7](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.3.0-story-BO-2564-prozessprotokoll.6...v1.3.0-story-BO-2564-prozessprotokoll.7) (2023-11-24)
 
 
