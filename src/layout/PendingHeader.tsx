@@ -9,16 +9,18 @@ export interface PendingHeaderProps {
 
 const PendingHeader = ({headerContent, pending, headerContentEnd}: PendingHeaderProps) => {
   return (
-    <div className='d-flex justify-content-between align-items-end'>
-      <div className='d-flex align-items-baseline'>
-        <div className='mt-2'>{headerContent}</div>
+    <div className='d-flex align-items-start my-1'>
+      <div className='d-flex'>
+        {headerContent}
         {pending && (
-          <div className='ms-2'>
-            <PendingSpinner />
-          </div>
+          <h5 className='my-0'>
+            <small className='mx-2 text-muted'>
+              <PendingSpinner />
+            </small>
+          </h5>
         )}
       </div>
-      <div>{headerContentEnd}</div>
+      <div className='d-flex justify-content-end flex-grow-1'>{headerContentEnd}</div>
     </div>
   );
 };
