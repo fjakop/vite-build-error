@@ -48,8 +48,8 @@ publish:
   needs:
     - sonarqube-check
     - job: nexusiq
-      # Der Job  'nexusiq' wird nicht auf allen Branches ausgeführt.
-      # Wenn er aber ausgeführt wird, muss darauf gewartet werden
+       # Der Job  'nexusiq' wird nicht auf allen Branches ausgeführt.
+       # Wenn er aber ausgeführt wird, muss darauf gewartet werden
       optional: true
   rules:
     - if: $CI_COMMIT_BRANCH !~ /^renovate\//
