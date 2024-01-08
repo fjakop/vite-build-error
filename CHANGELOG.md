@@ -1,3 +1,10 @@
+# [1.4.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.3.0...v1.4.0) (2024-1-8)
+
+
+### Features
+
+* **ui:** Neue Komponente UserTaskRow ([0b3bb00](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/0b3bb002e3b1a783fc48905a26c8c36517ba28ca))
+
 # [1.4.0-story-BO-2364-BO-2437-Frontend.14](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.13...v1.4.0-story-BO-2364-BO-2437-Frontend.14) (2024-1-2)
 
 
