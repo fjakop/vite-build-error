@@ -74,7 +74,7 @@ sonarqube-check:
       paths:
         - .sonar/cache
   script:
-    - 'sonar-scanner -Dsonar.host.url=${SONAR_HOST_URL} -Dsonar.login=${SONAR_DEVELOPER_TOKEN} -Dsonar.qualitygate.wait=true'
+    - 'sonar-scanner -Dsonar.host.url=${SONAR_HOST_URL} -Dsonar.token=${SONAR_DEVELOPER_TOKEN} -Dsonar.qualitygate.wait=true'
 
 nexusiq:evaluate:
   needs:
