@@ -3,155 +3,17 @@
 
 ### Features
 
-* **ui:** Neue Komponente UserTaskRow ([0b3bb00](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/0b3bb002e3b1a783fc48905a26c8c36517ba28ca))
+* Neue Komponente UserTaskRow ([0b3bb00](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/0b3bb002e3b1a783fc48905a26c8c36517ba28ca))
 
-# [1.4.0-story-BO-2364-BO-2437-Frontend.14](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.13...v1.4.0-story-BO-2364-BO-2437-Frontend.14) (2024-1-2)
-
-
-### Bug Fixes
-
-* BO-2364 BO-2437 fix gitlab-ci Kommentar ([c92438a](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/c92438ad81745045bfecf8b3972f3433b4be6546))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.13](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.12...v1.4.0-story-BO-2364-BO-2437-Frontend.13) (2023-12-14)
-
-
-### Bug Fixes
-
-* BO-2364 BO-2437 Observer für Verwendung in Personal ([4b33d8d](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/4b33d8d2f1971ceca94934d6ca97c53b8982cf2e))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.12](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.11...v1.4.0-story-BO-2364-BO-2437-Frontend.12) (2023-12-13)
-
-
-### Bug Fixes
-
-* BO-2364 BO-2437 fix gitlab-ci ([6d41be6](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/6d41be6d0fce036a64dbf1c584a2ced9d99ae4d9))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.11](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.10...v1.4.0-story-BO-2364-BO-2437-Frontend.11) (2023-12-13)
-
-
-### Reverts
-
-* Revert "fix: BO-2364 BO-2437 react-bootstrap version zurückgedreht" ([bdb1fd3](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/bdb1fd314bebfc59ef9e6a0c22d7250fc2602ef1))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.10](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.9...v1.4.0-story-BO-2364-BO-2437-Frontend.10) (2023-12-13)
-
-
-### Bug Fixes
-
-* BO-2364 BO-2437 react-bootstrap version zurückgedreht ([e273be8](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/e273be87440d5ce3b8a087abb6dcd59c443a7309))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.9](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.8...v1.4.0-story-BO-2364-BO-2437-Frontend.9) (2023-12-13)
-
-
-### Bug Fixes
-
-* BO-2364 BO-2437 sonar wieder aktiviert ([a84c11e](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/a84c11e84c69379e4babfdaef519d3733aa6d16f))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.8](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.7...v1.4.0-story-BO-2364-BO-2437-Frontend.8) (2023-12-5)
-
-
-### Features
-
-* Stylinganpassungen ([be4c830](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/be4c830705c230520e9e2840342a64018fa8ad0d))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.7](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.6...v1.4.0-story-BO-2364-BO-2437-Frontend.7) (2023-12-5)
-
-
-### Features
-
-* Stylinganpassungen ([946cbc0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/946cbc006c3a93a1628249104ab784770072df31))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.6](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.5...v1.4.0-story-BO-2364-BO-2437-Frontend.6) (2023-12-5)
-
-
-### Features
-
-* Stylinganpassungen ([705bb24](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/705bb24df96e31bfec12c4ca23d359af339bfce5))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.5](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.4...v1.4.0-story-BO-2364-BO-2437-Frontend.5) (2023-12-5)
-
-
-### Features
-
-* Stylinganpassungen ([ce0544d](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/ce0544d19d93e41eb66fd436be1a596ea871628f))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.4](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.3...v1.4.0-story-BO-2364-BO-2437-Frontend.4) (2023-12-5)
-
-
-### Bug Fixes
-
-* jest auf vitest umgebaut ([682eb08](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/682eb081766e5436efa8d576f33d468b51e93287))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.3](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.2...v1.4.0-story-BO-2364-BO-2437-Frontend.3) (2023-12-5)
-
-
-### Features
-
-* UserTaskRow-style über Attribut ([7e5d1f6](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/7e5d1f680c7326e1792e2db6053210bd235ee262))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0-story-BO-2364-BO-2437-Frontend.1...v1.4.0-story-BO-2364-BO-2437-Frontend.2) (2023-11-30)
-
-
-### Features
-
-* **ui:** Neue Komponente UserTaskRow ([f0de7a7](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/f0de7a78c68684fec936ca1ec8c0a342d6a877f6))
-
-# [1.4.0-story-BO-2364-BO-2437-Frontend.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.3.0...v1.4.0-story-BO-2364-BO-2437-Frontend.1) (2023-11-30)
-
-
-### Features
-
-* **ui:** Neue Komponente UserTaskRow ([01385a4](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/01385a464a3d724649a09d8e9d55c05f0e2b9ce3))
-* **ui:** Neue Komponente UserTaskRow ([4448670](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/44486709f7debbc4de7fca9073dc2e48c4cbb7c8))
-* **ui:** Neue Komponente UserTaskRow ([f99cf1e](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/f99cf1e74e7894bdc120c2a31adca5042683e306))
 
 # [1.3.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.2.0...v1.3.0) (2023-11-28)
 
 
 ### Features
 
-* **ui:** MainHeader mit Back-Button ([50fb18b](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/50fb18baa042a82bc59cd0ff4b51d46ae6944e2f))
-
-# [1.3.0-story-BO-2564-prozessprotokoll.7](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.3.0-story-BO-2564-prozessprotokoll.6...v1.3.0-story-BO-2564-prozessprotokoll.7) (2023-11-24)
-
-
-### Features
-
-* **ui:** BO-2564 BO-2573 margin Finetuning ([fe5085c](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/fe5085cf2c3b2ac1733766282cccc73adbffe99d))
-
-# [1.3.0-story-BO-2564-prozessprotokoll.6](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.3.0-story-BO-2564-prozessprotokoll.5...v1.3.0-story-BO-2564-prozessprotokoll.6) (2023-11-24)
-
-
-### Features
-
-* **ui:** BO-2564 BO-2573 margin Finetuning ([30e6528](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/30e6528d69a4e330955812d22d0dc728a6d40736))
-
-# [1.3.0-story-BO-2564-prozessprotokoll.5](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.3.0-story-BO-2564-prozessprotokoll.4...v1.3.0-story-BO-2564-prozessprotokoll.5) (2023-11-24)
-
-
-### Features
-
-* **ui:** BO-2564 BO-2573 back button mit tooltip ([36553ba](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/36553ba79e8b617bc417a6632c1b6d726444ea90))
-
-# [1.3.0-story-BO-2564-prozessprotokoll.4](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.3.0-story-BO-2564-prozessprotokoll.3...v1.3.0-story-BO-2564-prozessprotokoll.4) (2023-11-24)
-
-
-### Features
-
-* **ui:** BO-2564 BO-2573 margin auf 1 verringert ([53028f3](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/53028f3c54e81dde6e62aca37bbb5c7d30ebcfc6))
-
-# [1.3.0-story-BO-2564-prozessprotokoll.3](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.3.0-story-BO-2564-prozessprotokoll.2...v1.3.0-story-BO-2564-prozessprotokoll.3) (2023-11-24)
-
-
-### Features
-
-* **ui:** BO-2564 BO-2573 changelog aufgeräumt ([1944a97](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/1944a9792408deb75a4f25db5e2980afed076a1c))
-
-### Features
-
-* **ui:** BO-2564 BO-2573 margin-bottom auf 0 gesetzt ([f33f325](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/f33f32560e1e41774b86dd4d46a75d4d4d247d31))
-* **ui:** BO-2564 BO-2573 unit tests ergänzt ([5e71897](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/5e7189776abb3b07198ded8198b665573023b123))
-* **ui:** BO-2564 BO-2573 MainHeader mit backButton ([81b5e7e](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/81b5e7ead54a45a714748591fd01eda474c24e61))
+* MainHeader mit Back-Button ([50fb18b](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/50fb18baa042a82bc59cd0ff4b51d46ae6944e2f))
+* Margin Finetuning ([fe5085c](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/fe5085cf2c3b2ac1733766282cccc73adbffe99d))
+* Back-Button mit Tooltip ([36553ba](https://gitlab.fisp.
 
 # [1.2.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.1.2...v1.2.0) (2023-09-18)
 
