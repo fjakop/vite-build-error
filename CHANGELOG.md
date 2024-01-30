@@ -1,3 +1,10 @@
+# [1.5.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.1...v1.5.0) (2024-1-30)
+
+
+### Features
+
+* Komponente Backlink & Hook ([de046b8](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/de046b88753cbe8fe813446984e391a76c7de5a4))
+
 ## [1.4.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.0...v1.4.1) (2024-1-26)
 
 
