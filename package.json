@@ -1,7 +1,7 @@
 {
   "name": "@skp-bankorga/ui-components",
   "type": "module",
-  "version": "1.4.0",
+  "version": "1.5.0-story-BO-1512-BUP-Anwendungskachel.10",
   "main": "./dist/ui-components.umd.cjs",
   "module": "./dist/ui-components.js",
   "types": "./dist/index.d.ts",
@@ -14,7 +14,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-bootstrap": "^2.9.1"
+    "react-bootstrap": "^2.9.1",
+    "react-router-dom": "^6.21.3"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
@@ -45,7 +46,7 @@
   "scripts": {
     "build": "rimraf dist && vite build",
     "test": "vitest",
-    "coverage": "rimraf coverage && vitest run --coverage --reporter=junit --outputFile=junit.xml",
+    "coverage": "rimraf coverage && vitest run --coverage",
     "semantic-release": "semantic-release"
   },
   "publishConfig": {
