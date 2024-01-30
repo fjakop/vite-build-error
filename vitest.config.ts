@@ -5,10 +5,11 @@ export default defineConfig({
     coverage: {
       all: true,
       reporter: ['lcov', 'text'],
-      src: ['./src'],
     },
     environment: 'jsdom',
     globals: true,
+    reporters: ['default', 'junit'],
+    outputFile: 'junit.xml',
     setupFiles: ['./src/setupTests.ts'],
   },
 });
