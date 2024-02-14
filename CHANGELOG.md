@@ -1,3 +1,17 @@
+# [1.6.0-story-BO-1513-usertask-summary.2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.6.0-story-BO-1513-usertask-summary.1...v1.6.0-story-BO-1513-usertask-summary.2) (2024-2-14)
+
+
+### Features
+
+*  Farben der Usertasks können auch außerhalb verwendet werden ([4e6731c](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/4e6731cf8e7c961434eadc360da4c2729663666b))
+
+# [1.6.0-story-BO-1513-usertask-summary.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.5.0...v1.6.0-story-BO-1513-usertask-summary.1) (2024-2-14)
+
+
+### Features
+
+*  Farben der Usertasks können auch außerhalb verwendet werden ([5142552](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/5142552ebb8ab831b98eadef8bd9168816221afc))
+
 # [1.5.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.4.1...v1.5.0) (2024-1-30)
 
 
