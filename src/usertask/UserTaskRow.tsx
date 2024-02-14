@@ -7,6 +7,13 @@ import {UserTask} from './UserTask';
 
 export type UserTaskRowVariant = 'owner' | 'assignee' | 'candidate' | 'observer';
 
+export const UserTaskColor = {
+  assignee: 'primary',
+  candidate: 'success',
+  observer: 'warning',
+  owner: 'secondary',
+};
+
 type UserTaskRowPops = {
   userTask: UserTask;
   userId: string;
@@ -16,23 +23,22 @@ type UserTaskRowPops = {
 };
 
 const StyledOwner = styled(Card)`
-  border-left: 6px solid var(--bs-secondary);
+  border-left: 6px solid var(--bs-${UserTaskColor.owner});
 `;
 
 const StyledCandidate = styled(Card)`
-  border-left: 6px solid var(--bs-success);
+  border-left: 6px solid var(--bs-${UserTaskColor.candidate});
 `;
 
 const StyledAssignee = styled(Card)`
-  border-left: 6px solid var(--bs-primary);
+  border-left: 6px solid var(--bs-${UserTaskColor.assignee} );
 `;
 
 const StyledObserver = styled(Card)`
-    border-left: 6px solid var(--bs-warning);
+  border-left: 6px solid var(--bs-${UserTaskColor.observer});
 `;
 
-
-const StyledUserTaskContent = ({children, variant}: {children: ReactNode, variant: UserTaskRowVariant}) => {
+const StyledUserTaskContent = ({children, variant}: {children: ReactNode; variant: UserTaskRowVariant}) => {
   switch (variant) {
     case 'assignee':
       return <StyledAssignee>{children}</StyledAssignee>;
