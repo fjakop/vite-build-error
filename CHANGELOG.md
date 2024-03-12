@@ -1,3 +1,10 @@
+# [1.7.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.6.1...v1.7.0) (2024-03-12)
+
+
+### Features
+
+* clientMessageService ([eaedf30](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/eaedf30dc7e7eb7b993476341c7a0aa988b28588))
+
 ## [1.6.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.6.0...v1.6.1) (2024-2-20)
 
 
