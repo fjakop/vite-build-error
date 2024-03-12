@@ -23,7 +23,8 @@ export interface BacklinkProps {
 const useBacklink = (props: BacklinkProps) => {
   const backlinkParam = 'backlink';
 
-  const backlinkFromSearchParams = props.searchParams.get(backlinkParam) ?? undefined;
+  const encodedBacklinkFromSearchParams = props.searchParams.get(backlinkParam) ?? undefined;
+  const backlinkFromSearchParams = encodedBacklinkFromSearchParams ? decodeURIComponent(encodedBacklinkFromSearchParams) : undefined;
   if (backlinkFromSearchParams) {
     setBacklink(props.id, backlinkFromSearchParams);
   }

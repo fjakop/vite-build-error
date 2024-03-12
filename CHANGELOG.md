@@ -1,3 +1,10 @@
+## [1.6.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.6.0...v1.6.1) (2024-2-20)
+
+
+### Bug Fixes
+
+* Backlink in Search Parameters URI-encodiert verwenden ([3651fbf](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/3651fbfadc2bcdef26a163e1d9734c3459693c9a))
+
 # [1.6.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.5.0...v1.6.0) (2024-2-14)
 
 
