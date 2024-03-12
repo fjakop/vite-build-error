@@ -5,3 +5,4 @@ export * from './marker';
 export * from './usertask';
 export * from './datetime';
 export * from './backlink';
+export * from './client-message';
