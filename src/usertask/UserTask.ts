@@ -5,4 +5,5 @@ export type UserTask = {
   id: string;
   processDefinitionKey?: string;
   taskDefinitionKey: string;
+  rootProcessBusinessKey?: string;
 };

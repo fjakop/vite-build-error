@@ -23,19 +23,19 @@ type UserTaskRowPops = {
 };
 
 const StyledOwner = styled(Card)`
-  border-left: 6px solid var(--bs-${UserTaskColor.owner});
+    border-left: 6px solid var(--bs-${UserTaskColor.owner});
 `;
 
 const StyledCandidate = styled(Card)`
-  border-left: 6px solid var(--bs-${UserTaskColor.candidate});
+    border-left: 6px solid var(--bs-${UserTaskColor.candidate});
 `;
 
 const StyledAssignee = styled(Card)`
-  border-left: 6px solid var(--bs-${UserTaskColor.assignee} );
+    border-left: 6px solid var(--bs-${UserTaskColor.assignee});
 `;
 
 const StyledObserver = styled(Card)`
-  border-left: 6px solid var(--bs-${UserTaskColor.observer});
+    border-left: 6px solid var(--bs-${UserTaskColor.observer});
 `;
 
 const StyledUserTaskContent = ({children, variant}: {children: ReactNode; variant: UserTaskRowVariant}) => {
@@ -70,6 +70,12 @@ const UserTaskRow = ({userTask, editUserTask, userTaskAssignmentComponent, userI
     <StyledUserTaskContent variant={variant}>
       <Card.Body>
         <Row>
+          <Col>
+            <div>
+              <small className='text-muted mb-1'>#</small>
+            </div>
+            <div>{userTask.rootProcessBusinessKey}</div>
+          </Col>
           <Col xxl={7} xl={6} lg={5}>
             <div>
               <small className='text-muted mb-1'> {editUserTask ? getBearbeitungLabel() : 'Name'}</small>
