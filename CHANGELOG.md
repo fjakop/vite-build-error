@@ -1,3 +1,10 @@
+# [1.8.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.7.0...v1.8.0) (2024-04-24)
+
+
+### Features
+
+* **ui:** BO-2579 UserTaskRow beinhaltet nun auch den Root-Process-Businesskey ([aa504df](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/aa504df62a5b850ddbe3ea15eaa038892b1fef64))
+
 # [1.7.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.6.1...v1.7.0) (2024-03-12)
 
 
