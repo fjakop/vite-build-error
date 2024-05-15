@@ -1,3 +1,10 @@
+# [1.9.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.8.0...v1.9.0) (2024-05-15)
+
+
+### Features
+
+* **ui:** BO-2987 Table-Komponenten ([52c094b](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/52c094b0a0a752ba3915355579758dc3359d1656))
+
 # [1.8.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.7.0...v1.8.0) (2024-04-24)
 
 

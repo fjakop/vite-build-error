@@ -1,7 +1,7 @@
 {
   "name": "@skp-bankorga/ui-components",
   "type": "module",
-  "version": "1.9.0-task-BO-2987-Table-Komponenten-nach-ui-components.2",
+  "version": "1.9.0",
   "main": "./dist/ui-components.umd.cjs",
   "module": "./dist/ui-components.js",
   "types": "./dist/index.d.ts",
