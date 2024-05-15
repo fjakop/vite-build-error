@@ -5,7 +5,7 @@ include:
       - 'gitlab-ci/nexusiq.gitlab-ci.yml'
 
 default:
-  image: node:latest
+  image: node:20.12.2
   before_script:
     - 'cp ${NPMRC2} ~/.npmrc'
 

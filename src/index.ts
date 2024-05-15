@@ -6,3 +6,4 @@ export * from './usertask';
 export * from './datetime';
 export * from './backlink';
 export * from './client-message';
+export * from './table';
