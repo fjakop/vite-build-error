@@ -1,3 +1,15 @@
+# [2.0.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.9.0...v2.0.0) (2024-05-16)
+
+
+### Features
+
+* **ui:** BO-2892 neue Komponente PortalBacklink ([03fba99](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/03fba9960d8647bb814b39301f9f90ad15b66033))
+
+
+### BREAKING CHANGES
+
+* **ui:** Komponente Backlink entfernt. Wird bereits über skp-react-components angeboten, wenn für den ApplicationHeader-Parameter 'backlink' ein String übergeben wird.
+
 # [1.9.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.8.0...v1.9.0) (2024-05-15)
 
 
