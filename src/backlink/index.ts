@@ -1,4 +1,4 @@
-import Backlink from './Backlink';
+import PortalBacklink from './PortalBacklink';
 import useBacklink from './backlinkHook';
 
-export {Backlink, useBacklink};
+export {PortalBacklink, useBacklink};

@@ -1,7 +1,7 @@
-import {describe, it, vi, vitest} from 'vitest';
+import {describe, it, expect, vitest} from 'vitest';
 import {render, screen} from '@testing-library/react';
 import React from 'react';
-import Backlink from './Backlink';
+import PortalBacklink from './PortalBacklink';
 import {HashRouter} from 'react-router-dom';
 
 describe('Backlink', () => {
@@ -11,14 +11,15 @@ describe('Backlink', () => {
 
   const props = {
     id: 'myId',
-    useSearchParams: vi.fn()
+    searchParams: new URLSearchParams(),
+    setSearchParams: () => {}
   }
   it('renders component', () => {
     render(
       <HashRouter>
-        <Backlink {...props} />
+        <PortalBacklink {...props} />
       </HashRouter>
     );
-    expect(screen.getByTestId('backlink-chevron')).toBeInTheDocument();
+    expect(screen.getByTestId('portalbacklink-icon')).toBeDefined();
   });
 });
