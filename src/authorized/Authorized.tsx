@@ -18,6 +18,10 @@ interface AuthorizedProps {
    * Kindelemente, die angezeigt werden, falls eine Autorisierung vorliegt.
    */
   children?: ReactNode[] | ReactNode;
+  /**
+   * Element wird angezeigt, wenn keine Autorisierung vorliegt.
+   */
+  unauthorizedChildren?: ReactNode;
 }
 
 interface StateProps {
@@ -32,8 +36,8 @@ type Props = StateProps & AuthorizedProps;
 /**
  * Prüft, ob der Benutzer die passende Rolle hat. Falls ja, kann er den Inhalt der Webseite sehen. Falls nicht,...
  */
-const Authorized: React.FC<Props> = ({children, requiredRoles, roles}) => {
-  return <>{hasAnyRole(requiredRoles, roles) && children}</>;
+const Authorized: React.FC<Props> = ({children, requiredRoles, roles, unauthorizedChildren}) => {
+  return <>{hasAnyRole(requiredRoles, roles) ? children : unauthorizedChildren}</>;
 };
 
 export default Authorized;

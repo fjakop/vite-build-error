@@ -19,13 +19,17 @@ interface KeycloakAuthorizedProps {
    * Kindelemente, die angezeigt werden, falls eine Autorisierung vorliegt.
    */
   children: ReactNode[] | ReactElement;
+  /**
+   * Element wird angezeigt, wenn keine Autorisierung vorliegt.
+   */
+  unauthorizedChildren?: ReactNode;
 }
 
-const KeycloakAuthorized = ({keycloak, applicationId, requiredRoles, children}: KeycloakAuthorizedProps) => {
+const KeycloakAuthorized = ({keycloak, applicationId, requiredRoles, children, unauthorizedChildren}: KeycloakAuthorizedProps) => {
   const roles = (keycloak.tokenParsed?.resource_access && keycloak.tokenParsed?.resource_access[applicationId] && keycloak.tokenParsed.resource_access[applicationId].roles) || [];
 
   return (
-    <Authorized roles={roles} requiredRoles={requiredRoles}>
+    <Authorized roles={roles} requiredRoles={requiredRoles} unauthorizedChildren={unauthorizedChildren}>
       {children}
     </Authorized>
   );

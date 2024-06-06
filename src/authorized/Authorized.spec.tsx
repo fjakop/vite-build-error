@@ -1,3 +1,4 @@
+import {describe, it, expect} from 'vitest';
 import {render, screen} from '@testing-library/react';
 import Authorized from './Authorized';
 
@@ -24,16 +25,27 @@ describe('Authorized Tests', () => {
       render(elem);
       expect(screen.queryByText('child')).toBeNull();
     });
+    it('displays unauthorized children when no role is present', () => {
+      const elem = (
+        <Authorized data-testid='authorized' requiredRoles={['a', 'b']} roles={[]} unauthorizedChildren={<div>unauthorized child</div>}>
+          <div>child</div>
+        </Authorized>
+      );
+
+      render(elem);
+      expect(screen.getByText('unauthorized child')).toBeDefined();
+    });
 
     it('displays child element when required role is present', () => {
       const elem = (
-        <Authorized data-testid='authorized' requiredRoles={['a', 'b']} roles={['a']}>
+        <Authorized data-testid='authorized' requiredRoles={['a', 'b']} roles={['a']} unauthorizedChildren={<div>unauthorized child</div>}>
           <div>child</div>
         </Authorized>
       );
 
       render(elem);
       expect(screen.getByText('child')).toBeDefined();
+      expect(screen.queryByText('unauthorized child')).toBeNull();
     });
   });
   describe('without required roles', () => {
