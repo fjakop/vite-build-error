@@ -1,3 +1,10 @@
+# [2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.1...v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.2) (2024-06-06)
+
+
+### Features
+
+* **ui:** BO-3016 BO-3019 Doku ([f4f7f0a](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/f4f7f0a3f8ac6fa334f11e5e4e97b5a434f1723a))
+
 # [2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v2.0.0...v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.1) (2024-06-06)
 
 
