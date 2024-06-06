@@ -1,3 +1,10 @@
+# [2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v2.0.0...v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.1) (2024-06-06)
+
+
+### Features
+
+* **ui:** BO-3016 BO-3019 alternativ-Element anzeigen wenn nicht autorisiert ([edccb2c](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/edccb2c201f47e4f3240d45a2fe30b677b1b6b7f))
+
 # [2.0.0](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v1.9.0...v2.0.0) (2024-05-16)
 
 
