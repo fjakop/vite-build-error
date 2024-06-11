@@ -1,5 +1,5 @@
 import {describe, it, expect} from 'vitest';
-import {keycloakAuthClient, KeycloakAuthenticated} from '.';
+import {keycloakAuthClient, KeycloakAuthenticated} from './index';
 import {render, screen} from '@testing-library/react';
 
 const component = (

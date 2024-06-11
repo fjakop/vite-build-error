@@ -1,10 +1,11 @@
 import {Authorized} from '../authorized';
 import {ReactElement, ReactNode} from 'react';
 import Keycloak from 'keycloak-js';
+import {useKeycloakRoles} from './KeycloakHook';
 
 interface KeycloakAuthorizedProps {
   /**
-   * Keycloak Client
+   * Keycloak Client enthält den JWT
    */
   keycloak: Keycloak;
   /**
@@ -26,10 +27,9 @@ interface KeycloakAuthorizedProps {
 }
 
 const KeycloakAuthorized = ({keycloak, applicationId, requiredRoles, children, unauthorizedChildren}: KeycloakAuthorizedProps) => {
-  const roles = (keycloak.tokenParsed?.resource_access && keycloak.tokenParsed?.resource_access[applicationId] && keycloak.tokenParsed.resource_access[applicationId].roles) || [];
-
+  const {keycloakRoles} = useKeycloakRoles({keycloak, applicationId});
   return (
-    <Authorized roles={roles} requiredRoles={requiredRoles} unauthorizedChildren={unauthorizedChildren}>
+    <Authorized roles={keycloakRoles} requiredRoles={requiredRoles} unauthorizedChildren={unauthorizedChildren}>
       {children}
     </Authorized>
   );

@@ -1,13 +1,5 @@
 import React, {ReactNode} from 'react';
-
-/**
- * Prüft, ob eine Rolle gesetzt ist
- */
-const hasAnyRole = (requiredRoles: Iterable<string> | ArrayLike<string>, roles: Iterable<string> | ArrayLike<string>) => {
-  const requiredRolesArray = Array.from(requiredRoles);
-  const rolesArray = Array.from(roles);
-  return requiredRolesArray.length === 0 || rolesArray.some(r => requiredRolesArray.includes(r));
-};
+import {useHasAnyRole} from './AuthorizedHook';
 
 interface AuthorizedProps {
   /**
@@ -34,10 +26,12 @@ interface StateProps {
 type Props = StateProps & AuthorizedProps;
 
 /**
- * Prüft, ob der Benutzer die passende Rolle hat. Falls ja, kann er den Inhalt der Webseite sehen. Falls nicht,...
+ * Prüft, ob der Benutzer die passende Rolle hat. Falls ja, kann er den Inhalt der Webseite sehen.
+ * Falls nicht, werden die 'unauthorizedChildren' angezeigt.
  */
-const Authorized: React.FC<Props> = ({children, requiredRoles, roles, unauthorizedChildren}) => {
-  return <>{hasAnyRole(requiredRoles, roles) ? children : unauthorizedChildren}</>;
+const Authorized = ({children, requiredRoles, roles, unauthorizedChildren}:Props) => {
+  const {hasAnyRole} = useHasAnyRole({requiredRoles, roles});
+  return <>{hasAnyRole ? children : unauthorizedChildren}</>;
 };
 
 export default Authorized;

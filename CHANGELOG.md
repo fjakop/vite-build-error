@@ -1,3 +1,24 @@
+# [2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.5](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.4...v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.5) (2024-06-12)
+
+
+### Features
+
+* **ui:** BO-3016 BO-3019 nowrap datetime text ([a1e8e42](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/a1e8e4210313e756e57f8ea79b6df3259ae4d519))
+
+# [2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.4](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.3...v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.4) (2024-06-11)
+
+
+### Features
+
+* **ui:** BO-3016 BO-3019 Hook zum Abfragen von 'hasAnyKeycloakRole' ([cea648f](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/cea648f318cad8f5deadc2e219c3417e63d9ad89))
+
+# [2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.3](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.2...v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.3) (2024-06-11)
+
+
+### Features
+
+* **ui:** BO-3016 BO-3019 neue Komponente ISODateTimeDisplay ([876ca29](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/876ca295bfcab0e050cfb2621de4fed0622eb616))
+
 # [2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.1...v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.2) (2024-06-06)
 
 
