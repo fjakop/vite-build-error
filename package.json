@@ -1,7 +1,7 @@
 {
   "name": "@skp-bankorga/ui-components",
   "type": "module",
-  "version": "2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.1",
+  "version": "2.1.0",
   "main": "./dist/ui-components.umd.cjs",
   "module": "./dist/ui-components.js",
   "types": "./dist/index.d.ts",
