@@ -1,3 +1,13 @@
+# [2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v2.0.0...v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.1) (2024-06-13)
+
+
+### Features
+
+* **ui:** BO-3016 BO-3019 alternativ-Element anzeigen wenn nicht autorisiert ([edccb2c](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/edccb2c201f47e4f3240d45a2fe30b677b1b6b7f))
+* **ui:** BO-3016 BO-3019 Hook zum Abfragen von 'hasAnyKeycloakRole' ([4ab52c4](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/4ab52c410f3640c069c932384312e45ac389b4a8))
+* **ui:** BO-3016 BO-3019 Hook zum Auslesen des preferred username aus dem jwt ([980d038](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/980d038435dc3caf74059bee24161fa04fea686b))
+* **ui:** BO-3016 BO-3019 neue Komponente ISODateTimeDisplay ([c829fb2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/c829fb24825ae17ccd5e6413c69b088ad6ab0355))
+
 # [2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.5](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.4...v2.1.0-story-BO-3016-Auflisten-aller-Vertretungen.5) (2024-06-12)
 
 
