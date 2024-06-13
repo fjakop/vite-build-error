@@ -1,4 +1,5 @@
-import {keycloakAuthClient, KeycloakAuthenticated} from '.';
+import {describe, it, expect} from 'vitest';
+import {keycloakAuthClient, KeycloakAuthenticated} from './index';
 import {render, screen} from '@testing-library/react';
 
 const component = (
@@ -10,12 +11,12 @@ describe('KeycloakAuthenticated', () => {
   it('should show children', () => {
     keycloakAuthClient.authenticated = true;
     render(component);
-    expect(screen.getByTestId('child')).toBeInTheDocument();
+    expect(screen.getByTestId('child')).toBeDefined();
   });
 
   it('should not show children', () => {
     keycloakAuthClient.authenticated = false;
     render(component);
-    expect(screen.queryByTestId('child')).not.toBeInTheDocument();
+    expect(screen.queryByTestId('child')).toBeNull();
   });
 });
