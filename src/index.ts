@@ -1,10 +1,5 @@
-export * from './authorized';
-export * from './backlink';
-export * from './client-message';
-export * from './datetime';
-export * from './keycloak-authz';
-export * from './layout';
-export * from './marker';
-export * from './middleware';
-export * from './table';
-export * from './usertask';
+import {FetchBaseQueryError} from '@reduxjs/toolkit/query';
+
+export const isFetchBaseQueryError = (error: unknown): error is FetchBaseQueryError => {
+  return typeof error === 'object' && error != null && 'status' in error;
+};
