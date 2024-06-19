@@ -1,7 +1,7 @@
 {
   "name": "@skp-bankorga/ui-components",
   "type": "module",
-  "version": "2.2.0-task-BO-2988-rtk-query-middleware.2",
+  "version": "2.2.0-task-BO-2988-rtk-query-middleware.3",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
