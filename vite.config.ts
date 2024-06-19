@@ -10,13 +10,13 @@ export default defineConfig({
       entry: './src/index.ts',
       name: '@skp-bankorga/ui-components',
       // the proper extensions will be added
-      fileName: 'ui-components',
+      fileName: 'index',
       formats: ['es']
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
-      external: ['react', 'react-dom'],
+      external: ['react', 'react-dom', '@reduxjs/toolkit'],
       output: {
         // Provide global variables to use in the UMD build
         // for externalized deps
