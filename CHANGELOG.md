@@ -1,3 +1,10 @@
+# [2.2.0-task-BO-2988-rtk-query-middleware.2](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v2.2.0-task-BO-2988-rtk-query-middleware.1...v2.2.0-task-BO-2988-rtk-query-middleware.2) (2024-06-19)
+
+
+### Features
+
+* BO-2988 RtkQueryErrorLoggerMiddleware behandelt Fehler bei REST-Requests ([2e40a1d](https://gitlab.fisp.dev/skp-bank-orga/ui-components/commit/2e40a1df322a17d5e7ef54f5387c79fa20b45c58))
+
 # [2.2.0-task-BO-2988-rtk-query-middleware.1](https://gitlab.fisp.dev/skp-bank-orga/ui-components/compare/v2.1.0...v2.2.0-task-BO-2988-rtk-query-middleware.1) (2024-06-18)
 
 
