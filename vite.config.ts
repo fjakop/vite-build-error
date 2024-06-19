@@ -11,6 +11,7 @@ export default defineConfig({
       name: '@skp-bankorga/ui-components',
       // the proper extensions will be added
       fileName: 'ui-components',
+      formats: ['es']
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
